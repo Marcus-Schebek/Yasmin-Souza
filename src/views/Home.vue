@@ -1,7 +1,9 @@
 <template>
   <div id="home">
     <Header :email="email" />
-    <AboutMe />
+    <section class="about">
+      <AboutMe />
+    </section>
     <PersonalAchievements />
   </div>
 </template>
@@ -11,7 +13,6 @@ import { defineComponent } from 'vue';
 import Header from '../components/Header.vue';
 import AboutMe from '../components/AboutMe.vue';
 import PersonalAchievements from '../components/PersonalAchievements.vue';
-
 
 export default defineComponent({
   name: 'Home',
@@ -30,8 +31,17 @@ export default defineComponent({
 
 <style scoped>
 #home {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 </style>
+

@@ -90,9 +90,10 @@ export default defineComponent({
   justify-content: space-between;
   align-items: center;
   text-align: left;
-  height: 80vh;
+  padding: 2em 2em 0 2em;
   position: relative;
-  width: 100%;
+  height: 80vh;
+  max-width: 100%;
 }
 
 .left-section {
@@ -125,22 +126,22 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   object-fit: contain;
-  animation: sideIn 1s ease-out; /* Animação de entrada */
+  animation: sideIn 1s ease-out; 
 }
 
 .circle {
   position: absolute;
   border-radius: 50%;
   z-index: 2;
-  transition: transform 0.3s ease-out; /* Transição para o efeito de zoom */
+  transition: transform 0.3s ease-out; 
 }
 
 .circle1 {
-  width: 320px;
-  height: 320px;
+  width: 20rem;
+  height: 20rem;
   background-color: var(--violeta);
-  top: 400px;
-  left: 205px;
+  top: 18rem;
+  left: 12rem;
 }
 
 .circle2 {
@@ -161,35 +162,6 @@ export default defineComponent({
   transform: translateY(-50%);
   opacity: 0; /* Começa com opacidade 0 */
   animation: sideIn 1s ease-out forwards; /* Animação de entrada */
-}
-
-@media (max-width: 768px) {
-  .right-section {
-    display: none;
-  }
-  .left-section {
-    left: 0;
-  }
-  .left-section {
-    left: 0;
-    padding: 0 1rem; /* Adicione padding para melhor espaçamento */
-    text-align: center; /* Centraliza o texto */
-  }
-
-  .intro {
-    font-size: 0.2rem; /* Reduz o tamanho da fonte para dispositivos móveis */
-  }
-
-  .title {
-    font-size: 5em;
-    margin-bottom: 2rem;
-  }
-
-  .copy-email-button {
-    width: 100%; /* Ocupa toda a largura disponível */
-    max-width: 290px; /* Define uma largura máxima para evitar que ocupe toda a tela */
-    margin-top: 1rem; /* Adiciona um espaço acima do botão */
-  }
 }
 
 .intro {
@@ -239,6 +211,35 @@ export default defineComponent({
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .header-contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; 
+  }
+  .right-section {
+    display: none; /* Esconder a seção direita no modo responsivo */
+  }
+  .left-section {
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Centralizar a seção esquerda */
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 3em;
+    margin-bottom: 2rem;
   }
 }
 </style>

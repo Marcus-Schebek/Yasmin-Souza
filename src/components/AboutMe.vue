@@ -1,6 +1,6 @@
 <template>
   <div class="about-me">
-    <h2 class="about-title">E Quem Eu Sou ?</h2>
+    <h2 class="about-title">E quem sou eu ?</h2>
     <p class="about-text">
       Escritora oriunda do pulsante Rio de Janeiro, desenha sua trajetória como uma trama intricada entre os trilhos do metrô e as páginas da literatura. Nascida sob o sol carioca, ela traz consigo a paixão pelo ritmo frenético urbano e pela magia das letras. Ao descobrir a protagonista de sua própria narrativa, Yasmin transita habilmente entre a melhoria citadina e a serenidade literária, unindo o movimento efervescente do metrô ao encanto contido nas linhas de grandes obras.
     </p>
@@ -23,12 +23,11 @@ export default defineComponent({
 
 <style scoped>
 .about-me {
-  padding: 5rem;
+  padding: 4rem;
   width: 100%;
-  border-radius: 0.25rem;
+  box-sizing: border-box;
+  z-index: 5;
   background-color: var(--yellow);
-  margin-top: 4rem;
-  margin-left: 5.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 

@@ -35,13 +35,11 @@
   
   <style scoped>
   .personal-achievements {
-    padding: 5rem;
+    padding: 4rem;
     width: 100%;
+    box-sizing: border-box;
     border-radius: 0.25rem;
     background-color: var(--heliotrope);
-    margin-top: 4rem;
-    margin-right: 7rem;
-    margin-left: -12rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   
