@@ -158,7 +158,7 @@ export default defineComponent({
 
 .right-section {
   position: absolute;
-  left: 38rem;
+  left: 50%;
   transform: translateY(-50%);
   opacity: 0; /* Começa com opacidade 0 */
   animation: sideIn 1s ease-out forwards; /* Animação de entrada */
@@ -219,7 +219,9 @@ export default defineComponent({
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem; 
+    padding: 0; 
+    width: 90%;
+
   }
   .right-section {
     display: none; /* Esconder a seção direita no modo responsivo */
