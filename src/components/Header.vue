@@ -1,7 +1,7 @@
 <template>
   <header class="header-contact">
     <div class="left-section">
-      <p class="intro">Olá, eu sou Yasmin a sua nova</p>
+      <p class="intro">Olá, eu sou Yasmin, a sua nova</p>
       <div class="title-wrapper">
         <h1 class="title">{{ displayedTitle }}<span class="caret">|</span></h1>
         <button @click="copyEmail" class="copy-email-button">Copiar Email</button>
@@ -137,19 +137,19 @@ export default defineComponent({
 }
 
 .circle1 {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   background-color: var(--violeta);
-  top: 18rem;
-  left: 12rem;
+  bottom: -10%;
+  left: 40%;
 }
 
 .circle2 {
-  width: 225px;
-  height: 225px;
+  width: 20rem;
+  height: 20rem;
   background-color: var(--heliotrope);
-  top: 200px;
-  left: 0px;
+  top: 30%;
+  left: 0;
 }
 
 .circle:hover {

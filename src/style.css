@@ -6,6 +6,7 @@
   --old-lace: #FDF3E5;
   --white-smoke: #F5F5F5;
   --violeta: rgba(240, 112, 200, 0.8);
+  --purple: rgb(240, 112, 200);
   --heliotrope: rgba(192, 111, 255, 0.8);
   --pink: #F038FF;
   --persian-green: #1B998B;
@@ -15,7 +16,7 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff;
+  background-color: var(--white-smoke);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

@@ -1,15 +1,20 @@
 <template>
-  <div class="about-me">
-    <h2 class="about-title">E quem sou eu ?</h2>
-    <p class="about-text">
-      Escritora oriunda do pulsante Rio de Janeiro, desenha sua trajetória como uma trama intricada entre os trilhos do metrô e as páginas da literatura. Nascida sob o sol carioca, ela traz consigo a paixão pelo ritmo frenético urbano e pela magia das letras. Ao descobrir a protagonista de sua própria narrativa, Yasmin transita habilmente entre a melhoria citadina e a serenidade literária, unindo o movimento efervescente do metrô ao encanto contido nas linhas de grandes obras.
-    </p>
-    <p class="about-text">
-      A tulipa, sua flor predileta, simboliza a delicadeza que permeia suas palavras. Como especialidade que se abre com graciosidade, suas expressões artísticas revelam a profundidade de sua visão única do mundo. Cada palavra é cuidadosamente escolhida, como um ornamento meticuloso selecionado como flores mais exuberantes para compor um buquê encantador.
-    </p>
-    <p class="about-text">
-      Yasmin destaca-se como uma voz crítica no cenário literário contemporâneo, sua escrita robusta e delicada ecoa uma sinfonia de emoções. Mergulhando nas complexidades da vida urbana, ela traduz com maestria essas nuances em prosa cativante. A cidade é sua musa, os livros, seus guias, e cada linha escrita é um convite para o leitor explorar os matizes da existência.
-    </p>
+  <div class="about-me-container">
+    <div class="image-container">
+      <img src="../assets/Yasmin2.png" alt="Yasmin" class="profile-image" />
+    </div>
+    <div class="about-me">
+      <h2 class="about-title">E quem sou eu ?</h2>
+      <p class="about-text">
+        Escritora oriunda do pulsante Rio de Janeiro, desenha sua trajetória como uma trama intricada entre os trilhos do metrô e as páginas da literatura. Nascida sob o sol carioca, ela traz consigo a paixão pelo ritmo frenético urbano e pela magia das letras. Ao descobrir a protagonista de sua própria narrativa, Yasmin transita habilmente entre a melhoria citadina e a serenidade literária, unindo o movimento efervescente do metrô ao encanto contido nas linhas de grandes obras.
+      </p>
+      <p class="about-text">
+        A tulipa, sua flor predileta, simboliza a delicadeza que permeia suas palavras. Como especialidade que se abre com graciosidade, suas expressões artísticas revelam a profundidade de sua visão única do mundo. Cada palavra é cuidadosamente escolhida, como um ornamento meticuloso selecionado como flores mais exuberantes para compor um buquê encantador.
+      </p>
+      <p class="about-text">
+        Yasmin destaca-se como uma voz crítica no cenário literário contemporâneo, sua escrita robusta e delicada ecoa uma sinfonia de emoções. Mergulhando nas complexidades da vida urbana, ela traduz com maestria essas nuances em prosa cativante. A cidade é sua musa, os livros, seus guias, e cada linha escrita é um convite para o leitor explorar os matizes da existência.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -22,29 +27,97 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.about-me {
+.about-me-container {
+  display: flex;
+  align-items: flex-start;
   padding: 4rem;
   width: 100%;
   box-sizing: border-box;
-  z-index: 5;
   background-color: var(--yellow);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 2rem;
+  position: relative;
+  min-width: 200px; /* largura mínima para a imagem */
+}
+
+.profile-image {
+  width: 80%;
+  height: auto;
+  box-shadow:  #000 25px 25px;
+  transition: transform 0.3s ease; /* Transição suave para o efeito de movimento */
+}
+
+.image-container:hover .profile-image {
+  transform: scale(1.05) rotate(3deg); /* Efeito de movimento ao passar o mouse */
+}
+
+.about-me {
+  flex: 2;
 }
 
 .about-title {
   font-family: var(--font-primary);
   font-size: 4rem;
   font-weight: bold;
-  color: var(--heliotrope); /* Cor personalizada */
-  margin-bottom: 1rem; /* Espaçamento inferior */
+  color: var(--heliotrope);
+  margin-bottom: 1rem;
 }
 
 .about-text {
   font-family: var(--font-secondary);
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #000; /* Cor do texto */
-  margin-bottom: 1.5rem; /* Espaçamento inferior entre os parágrafos */
+  color: #000;
+  margin-bottom: 1.5rem;
   text-align: justify;
+}
+
+@media (max-width: 1024px) {
+  .about-me-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .image-container {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .about-title {
+    font-size: 3rem;
+  }
+
+  .about-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .image-container {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    width: 110%;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
 }
 </style>
