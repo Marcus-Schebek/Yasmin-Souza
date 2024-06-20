@@ -7,8 +7,10 @@
   --white-smoke: #F5F5F5;
   --violeta: rgba(240, 112, 200, 0.8);
   --heliotrope: rgba(192, 111, 255, 0.8);
+  --pink: #F038FF;
   --persian-green: #1B998B;
-  --yellow: #fff07c;
+  --yellow: #FFD100;
+  --elegant-black: #202020;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
