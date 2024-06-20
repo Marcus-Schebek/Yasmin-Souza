@@ -57,6 +57,7 @@
   .portfolio-description {
     font-family: var(--font-secondary);
     font-size: 1rem;
+    text-align: justify;
     color: #000;
   }
   </style>

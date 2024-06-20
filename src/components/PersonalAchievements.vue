@@ -29,7 +29,7 @@ export default defineComponent({
       portfolioItems: [
         {
           title: 'Poema para o jornal Folha do Pilotis',
-          description: 'Como o sol gentil que aquece a manhã,O afeto próprio nos traz a esperança.É a amizade sincera que cultivamos, Com nós mesmos, nos apoiamos.',
+          description: 'Como o sol gentil que aquece a manhã, O afeto próprio nos traz a esperança.É a amizade sincera que cultivamos, Com nós mesmos, nos apoiamos.',
           content: 'https://media.journoportfolio.com/users/167392/uploads/4700fa31-d184-4408-a4c3-0186b68a520b.pdf',
         },
         {

@@ -6,13 +6,12 @@
     <div class="about-me">
       <h2 class="about-title">E quem sou eu ?</h2>
       <p class="about-text">
-        Escritora oriunda do pulsante Rio de Janeiro, desenha sua trajetória como uma trama intricada entre os trilhos do metrô e as páginas da literatura. Nascida sob o sol carioca, ela traz consigo a paixão pelo ritmo frenético urbano e pela magia das letras. Ao descobrir a protagonista de sua própria narrativa, Yasmin transita habilmente entre a melhoria citadina e a serenidade literária, unindo o movimento efervescente do metrô ao encanto contido nas linhas de grandes obras.
+        Sou Yasmin, uma jovem carioca de alma inquieta cursando Comunicação Social — Jornalismo na UFRRJ. Destaco-me como uma das promessas mais brilhantes da minha geração, com inspiração alimentada pelas paisagens urbanas do Rio de Janeiro e pelas narrativas literárias que me envolvem. Aos 18 anos, conquistei o 1º lugar no concurso de redação "Iluminando os Ideais PEA-UNESCO 2023" além de publicar poemas e contos. Além disso, sou uma líder destemida, co-fundadora do podcast escolar "PodAgora", e estou engajada em projetos voluntários, demonstrando um compromisso admirável com o impacto positivo em minha comunidade      </p>
+      <p class="about-text">
+        A tulipa, minha flor predileta, simboliza a delicadeza que permeia minhas palavras. Como especialidade que se abre com graciosidade, minhas expressões artísticas revelam a profundidade de minha visão do mundo. Cada palavra é cuidadosamente escolhida, como um ornamento meticuloso selecionado como flores mais exuberantes para compor um buquê encantador.
       </p>
       <p class="about-text">
-        A tulipa, sua flor predileta, simboliza a delicadeza que permeia suas palavras. Como especialidade que se abre com graciosidade, suas expressões artísticas revelam a profundidade de sua visão única do mundo. Cada palavra é cuidadosamente escolhida, como um ornamento meticuloso selecionado como flores mais exuberantes para compor um buquê encantador.
-      </p>
-      <p class="about-text">
-        Yasmin destaca-se como uma voz crítica no cenário literário contemporâneo, sua escrita robusta e delicada ecoa uma sinfonia de emoções. Mergulhando nas complexidades da vida urbana, ela traduz com maestria essas nuances em prosa cativante. A cidade é sua musa, os livros, seus guias, e cada linha escrita é um convite para o leitor explorar os matizes da existência.
+        Me destaco como uma voz crítica no cenário literário contemporâneo, minha escrita robusta e delicada ecoa uma sinfonia de emoções. Mergulhando nas complexidades da vida urbana, traduzo com maestria essas nuances em prosa cativante. A cidade é minha musa, os livros, seus guias, e cada linha escrita é um convite para ti, leitor, explorar os matizes da existência.
       </p>
     </div>
   </div>
