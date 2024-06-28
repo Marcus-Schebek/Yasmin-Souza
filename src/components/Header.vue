@@ -66,7 +66,7 @@ export default defineComponent({
           setTimeout(del, this.deletingSpeed);
         } else {
           this.currentTitleIndex = (this.currentTitleIndex + 1) % this.titles.length;
-          setTimeout(this.typeWriterEffect, 500); // Tempo de espera antes de começar a digitar a próxima palavra
+          setTimeout(this.typeWriterEffect, 500); 
         }
       };
       del();
