@@ -4,7 +4,7 @@
       <h3 class="portfolio-title">{{ title }}</h3>
       <p class="portfolio-description">{{ description }}</p>
     </div>
-    <Modal :isVisible="isModalVisible" @close="closeModal">
+    <Modal :isVisible="isModalVisible" :title="title" @close="closeModal">
       <div v-html="formattedContent"></div>
     </Modal>
   </div>

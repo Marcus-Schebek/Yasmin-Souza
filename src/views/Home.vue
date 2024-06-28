@@ -5,6 +5,9 @@
       <AboutMe />
     </section>
     <PersonalAchievements />
+    <section class="final-section">
+      <TypingEffect />
+    </section>
   </div>
 </template>
 
@@ -13,6 +16,7 @@ import { defineComponent } from 'vue';
 import Header from '../components/Header.vue';
 import AboutMe from '../components/AboutMe.vue';
 import PersonalAchievements from '../components/PersonalAchievements.vue';
+import TypingEffect from '../components/TypingEffect.vue';
 
 export default defineComponent({
   name: 'Home',
@@ -20,6 +24,7 @@ export default defineComponent({
     Header,
     AboutMe,
     PersonalAchievements,
+    TypingEffect,
   },
   data() {
     return {
@@ -43,5 +48,14 @@ export default defineComponent({
   padding: 0;
   box-sizing: border-box;
 }
-</style>
 
+.final-section {
+  padding: 4rem 2rem;
+  background-color: #FFADAD;
+  color: #FFFFFC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+</style>

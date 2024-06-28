@@ -1,12 +1,19 @@
 <template>
-  <div v-if="isVisible" class="modal-overlay">
-    <div class="modal-content">
-      <button class="close-button" @click="closeModal">X</button>
-      <div class="content">
+  <v-dialog v-model="isVisible" transition="dialog-bottom-transition" max-width="600">
+    <v-card>
+      <v-card-title>
+        {{ title }}
+        <v-spacer></v-spacer>
+      </v-card-title>
+      <v-card-text>
         <slot></slot>
-      </div>
-    </div>
-  </div>
+      </v-card-text>
+      <v-card-actions>
+        <v-spacer></v-spacer>
+        <v-btn color="primary" @click="closeModal">Fechar</v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-dialog>
 </template>
 
 <script lang="ts">
@@ -19,10 +26,13 @@ export default defineComponent({
       type: Boolean,
       required: true,
     },
+    title: {
+      type: String,
+      required: true,
+    },
   },
   methods: {
     closeModal() {
-      // Emitir o evento 'close' apenas quando o botão 'X' é clicado
       this.$emit('close');
     },
   },
@@ -30,42 +40,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
-
-.modal-content {
-  display: flex;
-  background: white;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  position: relative;
-  width: 90%;
-  max-width: 800px;
-  max-height: 90%;
-  overflow-y: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.content{
-  margin: 4em;
-}
-.close-button {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #333;
+.v-dialog-transition {
+  transition: all 0.3s ease;
 }
 </style>
