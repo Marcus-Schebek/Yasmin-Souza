@@ -61,7 +61,7 @@ export default defineComponent({
 
 <style scoped>
 .portfolio-card {
-  height: 16em;
+  min-height: 16em;
   padding: 1rem;
   border: 1px solid #ccc;
   background-color: var(--white-smoke);
