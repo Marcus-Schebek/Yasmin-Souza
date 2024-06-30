@@ -72,6 +72,8 @@ export default defineComponent({
   line-height: 1.6;
   color: #000;
   margin-bottom: 1.5rem;
+  color: var(--elegant-black); /* Cor do texto */
+  margin-bottom: 1.5rem; /* Espaçamento inferior entre os parágrafos */
   text-align: justify;
 }
 

@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent} from 'vue';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'TypingEffect',
@@ -70,6 +70,39 @@ p {
 @keyframes blink {
   50% {
     opacity: 0;
+  }
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .typing-container {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 0.5em;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .typing-container {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin: 0.5em;
+  }
+
+  p {
+    font-size: 0.8rem;
   }
 }
 </style>

@@ -220,7 +220,7 @@ export default defineComponent({
     justify-content: center;
     align-items: center;
     padding: 0; 
-    width: 90%;
+    width: 100%;
 
   }
   .right-section {
