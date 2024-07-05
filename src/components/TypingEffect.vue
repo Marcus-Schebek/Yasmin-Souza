@@ -6,15 +6,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'TypingEffect',
+  name: "TypingEffect",
   data() {
     return {
-      titles: ['" Se o escritor não tiver prazer escrevendo, o leitor também não terá"'],
+      titles: [
+        '" Se o escritor não tiver prazer escrevendo, o leitor também não terá"',
+      ],
       currentTitleIndex: 0,
-      displayedTitle: '',
+      displayedTitle: "",
       typingSpeed: 50,
       showCaret: true,
     };
@@ -24,7 +26,8 @@ export default defineComponent({
       let currentChar = 0;
       const type = () => {
         if (currentChar < this.titles[this.currentTitleIndex].length) {
-          this.displayedTitle += this.titles[this.currentTitleIndex].charAt(currentChar);
+          this.displayedTitle +=
+            this.titles[this.currentTitleIndex].charAt(currentChar);
           currentChar++;
           setTimeout(type, this.typingSpeed);
         }
@@ -47,19 +50,25 @@ export default defineComponent({
 <style scoped>
 .typing-container {
   font-family: var(--font-primary);
-  font-size: 2rem;
+  font-size: 1rem;
+  padding: 4rem 2rem;
+  background-color: #ffadad;
+  color: #fffffc;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 2rem;
 }
 
 h1 {
-  color: #ffffFC;
+  color: #fffffc;
   margin: 1em;
 }
 
 p {
   font-size: 1.5rem;
-  color: #ffffFC;
+  color: #fffffc;
 }
 
 .caret {
@@ -73,10 +82,9 @@ p {
   }
 }
 
-/* Mobile responsive styles */
 @media (max-width: 768px) {
   .typing-container {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     margin: 1rem;
   }
 

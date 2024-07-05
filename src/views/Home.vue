@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <Header :email="email" />
+    <Header class="header" :email="email" />
     <section class="about">
       <AboutMe />
     </section>
@@ -8,6 +8,9 @@
     <section class="final-section">
       <TypingEffect />
     </section>
+    <footer class="footer">
+      <p>Created by Marcus Schebek</p>
+    </footer>
   </div>
 </template>
 
@@ -41,6 +44,10 @@ export default defineComponent({
   box-sizing: border-box;
 }
 
+.header {
+  height: 100vh;
+}
+
 .about {
   position: relative;
   width: 100%;
@@ -50,12 +57,17 @@ export default defineComponent({
 }
 
 .final-section {
-  padding: 4rem 2rem;
-  background-color: #FFADAD;
-  color: #FFFFFC;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 50vh;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fc9797; 
+}
+
+.footer p {
+  color: #f5f5f5; /* Tom mais escuro para o texto */
+  font-size: 1rem;
 }
 </style>

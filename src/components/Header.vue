@@ -119,7 +119,7 @@ export default defineComponent({
 .image-container {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 }
 
 .profile-image {
@@ -221,6 +221,7 @@ export default defineComponent({
     align-items: center;
     padding: 0; 
     width: 100%;
+   
 
   }
   .right-section {

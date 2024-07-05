@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-container">
     <div class="personal-achievements">
       <h2 class="achievements-title">Meu Portfólio</h2>
     </div>
@@ -49,7 +49,7 @@ export default defineComponent({
         },
         {
           title: '"Uníssona Sutura" - Redação ganhadora do primeiro lugar do prêmio Iluminando os ideais  PEA-UNESCO',
-          description: 'A rica tapeçaria da história humana, tecida ao longo das eras, é uma dança intrigante entre convivência, embates fervorosos e, em última análise, busca pela paz. Da Antiguidade à Era contemporânea, o sussurro do diálogo revelou-se como a maestria que harmoniza esses fios, tecendo relações que transcendem barreiras e forjam o ritmo da concórdia.',
+          description: 'A rica tapeçaria da história humana, tecida ao longo das eras, é uma dança intrigante entre convivência, embates fervorosos e, em última análise, busca pela paz.',
           content: 'A rica tapeçaria da história humana, tecida ao longo das eras, é uma dança intrigante entre convivência, embates fervorosos e, em última análise, busca pela paz.<br>Da Antiguidade à Era contemporânea, o sussurro do diálogo revelou-se como a maestria que harmoniza esses fios, tecendo relações que transcendem barreiras e forjam o ritmo da concórdia.<br>Na vasta narrativa da humanidade, desde tempos imemoriais, conflitos dirimiam-se pela força bruta, enquanto a sombra da violência pairava sobre nossa história.<br>Civilizações antigas, como os espartanos, exaltavam bravura em batalha, e duelos eram constantes em sociedades feudais, onde a honra era aferida à lâmina da espada.<br>Essa atmosfera agressiva contaminava as relações interpessoais, desafiando a construção de um refúgio de paz.<br>Entretanto, ainda na Antiguidade, impérios como Egito, Mesopotâmia e China compreenderam a importância do diálogo para manter a ordem e evitar conflitos.<br>Os gregos, por sua vez, valorizavam a discussão racional e o intercâmbio de ideias na solução de questões políticas e sociais.<br>Assim, a diplomacia e a negociação tornaram-se ferramentas essenciais na interação entre civilizações, suplantando a brutalidade das guerras.<br>No entanto, somente no período das Grandes Revoluções e das Luzes, um novo paradigma emergiu.<br>As mentes progressistas desse tempo audaciosamente desafiaram a eficácia das batalhas físicas para resolver conflitos.<br>Foi então que o diálogo, como um antídoto à violência, ganhou força.<br>O século XVIII marcou um divisor de águas: a humanidade reconheceu que as palavras poderiam ser mais afiadas que qualquer espada.<br>Nesse sentido, o encaminhar da história nos leva a julgar que o mundo contemporâneo deveria ser um exemplo para as antigas eras em relação ao diálogo como garantia da paz.<br>Porém, ao analisarmos esse mundo moderno, é difícil ignorar a aparente contradição entre a busca cotidiana pela paz e a persistência de conflitos globais, amplamente noticiados pela mídia.<br>Isso revela um descompasso entre a valorização do diálogo nas relações interpessoais e a falta de paz no âmbito global.<br>Essa aparente incongruência faz-nos refletir sobre a complexidade do mundo atual.<br>Por um lado, o diálogo é inquestionavelmente um alicerce vital na promoção da paz.<br>Através dele desacordos são resolvidos; perspectivas são compreendidas e relações saudáveis são construídas.<br>No entanto, como pode a paz florescer individualmente se o mundo globalizado não se torna exemplo?<br>Onde está nossa bússola?<br>A ficção, muitas vezes, presentifica-se para redirecionar o foco populacional das guerras globais, transportando-nos a reinos de desejo e contemplação:<br>No campo da literatura, por exemplo, clássicos como “Dom Quixote”, de Miguel de Cervantes, ilustram o poder do diálogo.<br>Nessa obra, o protagonista emprega palavras como armas para enfrentar um mundo que ele vê como ideal, acreditando que o diálogo e a persuasão podem mudar a realidade, mesmo que suas ilusões colidam com a dura verdade.<br>Já em termos cinematográficos, filmes como “A Lista de Schindler” retratam a extraordinária capacidade de diálogo na abordagem de divergências profundas.<br>A história de Oskar Schindler, empresário alemão que salvou centenas de judeus durante o Holocausto, é uma representação de como o diálogo e a negociação podem triunfar sobre obstáculos aparentemente intransponíveis, resgatando vidas, reavivando esperanças.<br>Entretanto, apesar do impacto poderoso da ficção, pode ela eficientemente conscientizar uma população?<br>Que pese a morte de pessoas em regimes nos quais o diálogo não era valorizado.<br>Que o mundo entenda que o diálogo como garantia da paz precisa ser semeado através de uma semente, plantada na infância.<br>Contudo, como é possível esse plantio se a irrigação, em vez de pura e destinada a nutrir o poder do diálogo, torna-se veneno devido ao poder humano, que, em vez de ser exemplo constante, lança-se em guerras que perduram pelo mundo, desafiando a busca pela paz?<br>A guerra feroz entre Rússia e Ucrânia se ergue como testemunho dos horrores desencadeados quando as distinções entre nações são resolvidas pelo eco ensurdecedor da força, em vez da harmonia do diálogo.<br>Sob esse véu sombrio, cidades viraram escombros, famílias foram deslocadas e vidas dilaceradas.<br>Esta tragédia<br>lança uma sombra tétrica sobre a capacidade da violência corroer comunidades e dividir nações até o âmago.<br>Porém, à medida que os anos arrastavam o conflito em sua implacável órbita, a clareza emergia lentamente: a salvação não residia no campo de batalha, mas na mesa de negociações.<br>Após sofrimento e destruição, começaram a brotar os frutos da diplomacia: tênues acordos de cessar-fogo lançando uma débil promessa de respiro na tempestade de sangue.<br>Nesse intrincado emaranhado de desafios, onde palavras podem ser armas ou instrumentos de concórdia, como podemos costurar a paz, entrelaçando os fios da compreensão e empatia?<br>Pode o diálogo tecer um tecido social resistente o suficiente para suportar as tensões de um mundo esticado ao limite?<br>Em meio a sociedade bordada por desigualdades e conflitos, será o diálogo a linha condutora que nos levará à serenidade?<br>Num mundo bordado por incertezas e pontuado por desavenças, será o diálogo o alfinete que segura a paz em seu lugar?<br>Ou talvez o elo que conecta as peças aparentemente desconexas desse quebra-cabeça?<br>Em nossa jornada costurando relações harmoniosas, é imperativo compreender como cada ponto de conversa pode unir pessoas e reparar os rasgos na trama da convivência humana.<br>O diálogo é uma preciosa ferramenta resolvendo conflitos e construindo relacionamentos sólidos.<br>Na política, a diplomacia evita guerras e fomenta acordos internacionais.<br>No cotidiano, fortalece laços familiares, promove a aprendizagem nas escolas, aprimora comunicações no trabalho e desenha soluções pacíficas, de conflitos pessoais a disputas internacionais.<br>É a cola que une sociedades e nações, construindo pontes em vez de muros.<br>Seja na ficção, seja na história; seja no individual, seja no coletivo, o diálogo eficaz brilha como uma joia, alimentado pela escuta ativa, empatia e respeito mútuo.<br>Abraçar perspectivas diversas, validando opiniões alheias, constrói alicerces, edificando o entendimento.<br>Nesse processo, florescem valores cruciais que semeiam uma cultura de paz.<br>É como tecer fios invisíveis que unem corações e mentes, erguendo pontes sobre abismos de desentendimentos.<br>A diplomacia é a sinfonia do diálogo que regemos diariamente, buscando incessantemente a paz.<br>Adotar a mentalidade diplomática requer paciência e compreensão, nos colocando nos sapatos do outro para harmonizar nossas relações.<br>Escolher palavras é como criar notas musicais: devem ser claras, objetivas e respeitosas, evitando desafinar ou criar dissonâncias em nossa sinfonia diária.<br>Assim, entrelaçamos uma melodia de entendimento, contribuindo para um mundo harmonioso e pacífico.<br>Em suma, no intricado tear da história, o diálogo emerge como linha condutora que costura a convivência humana.<br>Seja na política global, seja nas relações cotidianas, seu poder transformador é inegável, tal qual afirma a UNESCO: “[Ele é] um fator essencial para a construção da cultura de paz.”<br>Assim, que o diálogo seja o fio que nos une, fazendo-nos parceiros na busca incessante pela paz, tecendo laços que resistam às tempestades da discórdia e floresçam como jardins de harmonia em nosso mundo. </br> </br>',
         },
         {
@@ -64,21 +64,24 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.text-container{
+  width: 100%;
+  padding-bottom: 4em;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, var(--pink) 75%, #FFADAD 100%);
+}
 .personal-achievements {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 4rem;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: var(--pink);
 }
 .achievements-title {
   font-family: var(--font-primary);
   font-size: 4rem;
   font-weight: bold;
-  color: var(--yellow); /* Cor personalizada */
-  margin-bottom: 1rem; /* Espaçamento inferior */
+  color: var(--yellow); 
+  margin-bottom: 1rem; 
 }
 
 .personal-texts {
@@ -86,7 +89,6 @@ export default defineComponent({
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 2rem;
-  background-color: var(--pink);
 }
 
 @media (max-width: 768px) {

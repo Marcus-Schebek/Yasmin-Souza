@@ -44,9 +44,7 @@ export default defineComponent({
     };
 
     const formattedContent = computed(() => {
-      // Aqui você faria a lógica para carregar e formatar o conteúdo HTML
-      // Exemplo: converter o PDF em HTML, ou usar o HTML direto se já estiver disponível
-      return props.content; // Nesse exemplo, supondo que `content` já seja HTML
+      return props.content; 
     });
 
     return {
@@ -61,7 +59,7 @@ export default defineComponent({
 
 <style scoped>
 .portfolio-card {
-  min-height: 16em;
+  min-height: 18em;
   padding: 1rem;
   border: 1px solid #ccc;
   background-color: var(--white-smoke);
