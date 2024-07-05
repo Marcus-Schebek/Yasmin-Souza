@@ -70,4 +70,12 @@ export default defineComponent({
   color: #f5f5f5; /* Tom mais escuro para o texto */
   font-size: 1rem;
 }
+@media (max-width: 480px) {
+  .final-section{
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+  }
+}
 </style>

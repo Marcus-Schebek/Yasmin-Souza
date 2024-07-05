@@ -92,6 +92,10 @@ export default defineComponent({
 }
 
 @media (max-width: 768px) {
+  .text-container{
+    margin: 0;
+    padding: 0;
+  }
   .personal-texts {
     grid-template-columns: 1fr;
   }

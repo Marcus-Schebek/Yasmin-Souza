@@ -82,31 +82,14 @@ p {
   }
 }
 
-@media (max-width: 768px) {
-  .typing-container {
-    font-size: 0.5rem;
-    margin: 1rem;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-    margin: 0.5em;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 480px) {
   .typing-container {
     font-size: 1.2rem;
-    margin: 0.5rem;
+    margin: 0;
   }
 
   h1 {
     font-size: 1.2rem;
-    margin: 0.5em;
   }
 
   p {
