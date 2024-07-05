@@ -6,12 +6,13 @@
     <div class="about-me">
       <h2 class="about-title">E quem sou eu ?</h2>
       <p class="about-text">
-        Sou Yasmin, uma jovem carioca de alma inquieta cursando Comunicação Social — Jornalismo na UFRRJ. Destaco-me como uma das promessas mais brilhantes da minha geração, com inspiração alimentada pelas paisagens urbanas do Rio de Janeiro e pelas narrativas literárias que me envolvem. Aos 18 anos, conquistei o 1º lugar no concurso de redação "Iluminando os Ideais PEA-UNESCO 2023" além de publicar poemas e contos. Além disso, sou uma líder destemida, co-fundadora do podcast escolar "PodAgora", e estou engajada em projetos voluntários, demonstrando um compromisso admirável com o impacto positivo em minha comunidade      </p>
-      <p class="about-text">
-        A tulipa, minha flor predileta, simboliza a delicadeza que permeia minhas palavras. Como especialidade que se abre com graciosidade, minhas expressões artísticas revelam a profundidade de minha visão do mundo. Cada palavra é cuidadosamente escolhida, como um ornamento meticuloso selecionado como flores mais exuberantes para compor um buquê encantador.
+        Sou Yasmin, uma jovem carioca de alma inquieta cursando Comunicação Social — Jornalismo na UFRRJ. Destaco-me como uma das promessas mais brilhantes da minha geração, inspirada pelas paisagens urbanas do Rio de Janeiro e pelas narrativas literárias que me envolvem. Aos 18 anos, conquistei o 1º lugar no concurso de redação "Iluminando os Ideais PEA-UNESCO 2023" e publiquei poemas e contos. Além disso, sou uma líder destemida, co-fundadora do podcast escolar "AgoraPod", e estou engajada em projetos voluntários, demonstrando um compromisso admirável com o impacto positivo em minha comunidade.
       </p>
       <p class="about-text">
-        Me destaco como uma voz crítica no cenário literário contemporâneo, minha escrita robusta e delicada ecoa uma sinfonia de emoções. Mergulhando nas complexidades da vida urbana, traduzo com maestria essas nuances em prosa cativante. A cidade é minha musa, os livros, seus guias, e cada linha escrita é um convite para ti, leitor, explorar os matizes da existência.
+        A tulipa, minha flor predileta, simboliza a delicadeza que permeia minhas palavras. Assim como uma tulipa se abre com graciosidade, minhas expressões artísticas revelam a profundidade de minha visão do mundo. Cada palavra é cuidadosamente escolhida, como um ornamento meticuloso, selecionado como as flores mais exuberantes para compor um buquê encantador.
+      </p>
+      <p class="about-text">
+        Destaco-me como uma voz crítica no cenário literário contemporâneo. Minha escrita, robusta e delicada, ecoa uma sinfonia de emoções. Mergulhando nas complexidades da vida urbana, traduzo com maestria essas nuances em prosa cativante. A cidade é minha musa, os livros, seus guias, e cada linha escrita é um convite para ti, leitor, explorar os matizes da existência.
       </p>
     </div>
   </div>
