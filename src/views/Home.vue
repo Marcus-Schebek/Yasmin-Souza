@@ -57,7 +57,7 @@ export default defineComponent({
 }
 
 .final-section {
-  min-height: 50vh;
+  height: 50vh;
 }
 
 .footer {
